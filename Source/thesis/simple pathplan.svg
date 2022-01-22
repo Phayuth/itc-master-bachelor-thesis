@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="pathplan.svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker1633"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1631" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1515"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1513" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1409"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1407" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1279"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1277" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1185"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1183" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1085"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1083" />
+    </marker>
+    <rect
+       x="104.6994"
+       y="118.02307"
+       width="41.010417"
+       height="18.237351"
+       id="rect106" />
+    <rect
+       x="51.215774"
+       y="87.595982"
+       width="33.734375"
+       height="14.363095"
+       id="rect3032" />
+    <rect
+       x="58.491816"
+       y="96.005953"
+       width="23.718006"
+       height="12.473214"
+       id="rect3022" />
+    <marker
+       style="overflow:visible"
+       id="marker2593"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2591" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2505"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2503" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker2411"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2409" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker2291"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2289" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker2150"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2148" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path835-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path838-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1588-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1586-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1588-9-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1586-2-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-8-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path838-6-2" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="377.08201"
+     inkscape:cy="479.0766"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g1940"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-midpoints="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1940"
+       transform="rotate(90,47.803675,123.92245)">
+      <g
+         id="g1191"
+         transform="translate(56.874686,27.513026)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.354;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1257"
+           width="19.646477"
+           height="19.646477"
+           x="-67.338013"
+           y="140.73105"
+           transform="rotate(-135,-2.4937422,101.62778)" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-8)"
+           d="M 65.470781,146.77765 85.179442,127.06898"
+           id="path10-1"
+           sodipodi:nodetypes="cc"
+           transform="rotate(-90,47.803675,123.92245)" />
+        <g
+           id="g1512"
+           transform="rotate(-45,68.507868,104.02802)">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.251434;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 53.453907,107.12397 H 83.453905"
+             id="path1475" />
+          <rect
+             style="fill:none;stroke:#000000;stroke-width:0.356871;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+             id="rect1477"
+             width="1.1431285"
+             height="10.954982"
+             x="52.882343"
+             y="101.64648" />
+          <rect
+             style="fill:none;stroke:#000000;stroke-width:0.356871;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+             id="rect1477-0"
+             width="1.1431285"
+             height="10.954982"
+             x="82.882339"
+             y="101.64648" />
+        </g>
+      </g>
+      <g
+         id="g1373"
+         transform="rotate(49.471118,83.994821,32.462691)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.354;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect1257-0"
+           width="19.646477"
+           height="19.646477"
+           x="-76.988319"
+           y="-67.336945"
+           transform="rotate(-135)" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.131;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-8-5)"
+           d="M 6.4751579,88.479307 -13.233512,68.770646"
+           id="path10-1-3"
+           sodipodi:nodetypes="cc" />
+        <g
+           id="g1512-8"
+           transform="rotate(-45,14.958434,172.61661)">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.251434;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 53.453907,107.12397 H 83.453905"
+             id="path1475-0" />
+          <rect
+             style="fill:none;stroke:#000000;stroke-width:0.356871;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+             id="rect1477-6"
+             width="1.1431285"
+             height="10.954982"
+             x="52.882343"
+             y="101.64648" />
+          <rect
+             style="fill:none;stroke:#000000;stroke-width:0.356871;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+             id="rect1477-0-9"
+             width="1.1431285"
+             height="10.954982"
+             x="82.882339"
+             y="101.64648" />
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:6.33714px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';stroke-width:0.158429"
+         x="-149.67827"
+         y="145.3783"
+         id="text428"
+         transform="rotate(-90)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"><tspan
+           sodipodi:role="line"
+           id="tspan426"
+           x="-149.67827"
+           y="145.3783"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.158429">Start</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:6.43943px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';stroke-width:0.160986"
+         x="1.6102157"
+         y="3.1893635"
+         id="text432"
+         transform="rotate(-90)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"><tspan
+           sodipodi:role="line"
+           id="tspan430"
+           x="1.6102157"
+           y="3.1893635"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.160986">Goal</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect150"
+         width="199.60161"
+         height="199.60161"
+         x="-167.96765"
+         y="-36.011646"
+         transform="rotate(-90)"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M -36.028347,124.41941 H 14.752864 V 71.767318"
+         id="path152"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <circle
+         style="fill:#000000;stroke:#000000;stroke-width:0.365001;stroke-linejoin:round"
+         id="path154"
+         cx="-73.50457"
+         cy="67.538597"
+         r="15.367997"
+         transform="rotate(-90)"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 163.58996,68.166845 H 120.85887 V 11.364405"
+         id="path156"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 63.789159,-31.633958 V 19.64976"
+         id="path158"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <rect
+         style="fill:#000000;stroke:#000000;stroke-width:0.365;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect160"
+         width="28.063299"
+         height="25.657875"
+         x="-153.01726"
+         y="35.59988"
+         transform="rotate(-90)"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.165,6.99;stroke-dashoffset:11.65;stroke-opacity:1"
+         d="M 127.53356,133.76837 C 99.663012,131.7704 75.587341,122.94164 54.843293,108.11597 36.776001,91.957353 34.33598,79.729218 27.84907,59.740189 16.03606,51.634831 -0.03142772,60.202591 -8.2323149,49.851217 -19.939851,26.97216 -10.937815,20.940787 -8.9569108,9.9430075"
+         id="path162"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.1788px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';stroke-width:0.17947"
+         x="-28.803051"
+         y="34.824677"
+         id="text1049"
+         transform="rotate(-90)"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan1047"
+           x="-28.803051"
+           y="34.824677"
+           style="stroke-width:0.17947">Plan Path</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.07019px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';stroke-width:0.226755"
+         x="-42.279751"
+         y="91.738297"
+         id="text1053"
+         transform="rotate(-90)"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan1051"
+           x="-42.279751"
+           y="91.738297"
+           style="stroke-width:0.226755">Obstacle</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2291)"
+         d="M 32.125382,30.875081 V 65.085579"
+         id="path1055"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2505)"
+         d="M 83.441132,38.826348 72.898722,57.086339"
+         id="path1057"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker2593)"
+         d="M 66.603151,135.64474 91.160342,43.996054"
+         id="path1059"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2411)"
+         d="m 93.991958,35.924465 23.506932,11.34058"
+         id="path1061"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1515)"
+         d="M 86.245681,22.174085 66.293266,6.6334247"
+         id="path1063"
+         inkscape:export-filename="C:\Users\The Godfather\g1191.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
+    </g>
+    <text
+       xml:space="preserve"
+       id="text3020"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;white-space:pre;shape-inside:url(#rect3022);" />
+    <text
+       xml:space="preserve"
+       id="text3030"
+       style="line-height:1.25;font-family:'Cambria Math';font-size:10.58333333px;-inkscape-font-specification:'Cambria Math, Normal';white-space:pre;shape-inside:url(#rect3032);" />
+    <text
+       xml:space="preserve"
+       id="text104"
+       style="font-size:4.23333px;line-height:1.25;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';white-space:pre;shape-inside:url(#rect106);" />
+  </g>
+</svg>

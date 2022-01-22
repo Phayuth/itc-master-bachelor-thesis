@@ -1,0 +1,39 @@
+\section{INTRODUCTION}
+\subsection{Background}
+\hspace{1.27cm}
+Wheeled Mobile Robotic is a one of the robotic field that has been around for many years. The studies on wheeled mobile robot have produced many interesting results that allow many breakthroughs in the robotic field. One study subject on wheeled mobile robot is the Autonomous Robot Navigation. To achieve an autonomous navigation functionality, the robot needs a great amount of information of the surrounding environment, thus different kinds of sensors have been used and numerous algorithms have been deployed on the robot. One of the problem that attract the attention of the robotic community as well as researchers and developers is the Robotic Path Planning.\par
+
+
+\hspace{1.27cm}
+For human, moving from point A to point B is an easy task. However, for the robot, navigation is a challenging task that many researchers and developers have invested time on. A robot uses sensors to perceive the environment (up to some degree of uncertainty) and to build or update its environment map.(\cite{KLANCAR2017161}). To determine appropriate motion actions that lead to the desired goal location, it can use different decision and planning algorithms. In the process of path planning, the robot’s kinematic and dynamics constraints are considered.\par
+
+\hspace{1.27cm}
+This thesis is structured into 8 chapters. In the first chapter the \textbf{Introduction}, we show background of the study, statement of problem of why we choose this topic to study on, objectives of the thesis, and scope of the study. The second chapter is the \textbf{Literature Review} where we show past research, Differential Drive Robot mechanism, type of robot motion controller, and type of path planning algorithm. The third chapter is the \textbf{Research Methodology} where we show procedure of experiment, workflow and 3D modeling for simulation software. The fourth chapter is the \textbf{Differential Drive Mobile Robot Modeling}. This chapter shows kinematic and dynamics model for the robot. The fifth chapter is \textbf{Control Differential Drive Mobile Robot}. This chapter shows control algorithm for robot motion using kinematic and dynamics model and Sensor Fusion for robot localization using Extended Kalman Filter. The sixth chapter talk about the \textbf{Path Planning}. In the chapter, we show  framework software for simulation with ROS and ROS message, Path Planning algorithm using A* and Occupancy Grid Map. In the seventh chapter, we show the \textbf{Result and Discussion} of the study. The last chapter is the \textbf{Conclussion and Recommendation} where we conclude the thesis and give future recommendation.\par
+
+
+
+
+\subsection{Statement of Problem}
+\hspace{1.27cm}
+The navigation of wheeled mobile robot highly depends on the information that it has. For example, the information of the surrounding environment which is represented in the form of Occupancy Grid Map and the information of dynamic environment observed from sensors. To achieve autonomous navigation, a robot is required to be able to plan and move along trajectory. The trajectory is planned dynamically in accordant with moving obstacles.\par
+
+\hspace{1.27cm}
+Wheeled Mobile robot is a highly studied topic in today's world. Many high tech companies are deploying robot to the working environment of their company such warehouse, farm, fulfillment center -etc. That action has resulted in a significant demand of the most high performance and optimally designed robot that can accelerate the work force. Thus, high performance robot need to be equipped with highly advance sensors and devices along with the implementation of complex algorithms. However, it may induce high cost of robot production. The importance of this research is to provide a possible method that utilizes affordable sensors and robots for a commercial product. Long-term goal of this research is to construct an autonomous mobile robot that is able to serve as a transportation of objects from one place to another indoor such as a factory, a shop, -etc.\par
+
+
+
+\subsection{Objective}
+%\noindent
+%\hspace{1.5cm}
+This thesis aims to:
+\begin{itemize}
+\item Determine the pathway to move the robot using known static Occupancy Grid Map from SLAM Method
+\item Design a controller for the robot to follow a planned pathway.
+\end{itemize}\par
+
+
+
+
+\subsection{Scope}
+\hspace{1.27cm}
+In this research, the differential drive mobile robot is selected to be the main robot platform. The robot is considered to move inside the 2D environment, thus the information of the z-axis is neglected. The experiment is conducted inside a simulation of Gazebo environment with ROS framework. The sensor and robot model are simulated using a high accurate physics software. The project produces a ROS package for robot visualization, path planning and control.\par

@@ -1,0 +1,190 @@
+% THIS IS THE BEGINNING OF THE DOCUMENT STRUCTURE PDF=======================================
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[top=2.54cm,bottom=2.54cm,left=2.54cm,right=2.54cm]{geometry}
+\usepackage{tabularx}
+%\usepackage{secdot}
+%set geometry paper
+\renewcommand{\baselinestretch}{1} 
+\usepackage{mathptmx} %font time new roman
+\usepackage[section]{placeins}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage{array}
+\newcommand\ChangeRT[1]{\noalign{\hrule height #1}}
+%===========================================================================================
+
+
+% INSERT PDF ===============================================================================
+\usepackage{pdfpages}
+%===========================================================================================
+
+% USE SI UNIT===============================================================================
+\usepackage{siunitx}                      % USING SI UNIT CAN SOLVE ERROR PROBLEM IN SYMBOLS
+%===========================================================================================
+
+% load package with ``framed'' and ``numbered'' option.=====================================
+%\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+\usepackage{url,textcomp}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{18pt}
+%===========================================================================================
+
+
+
+% REFERENCE CITE ===========================================================================
+%\usepackage[utf8]{inputenc}                   % use if not utf8 encoder
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{comment}
+\usepackage[backend=biber,style=apa,sorting=ynt]{biblatex} % CITE STYLE AUTHOR,YEAR 
+\addbibresource{Main-pages/mybib.bib}                      % BIB FOLDER
+%===========================================================================================
+
+
+%PAGE SETUP=================================================================================
+\usepackage{graphicx}\graphicspath{{images/imagess/}}       %file image
+\usepackage[hidelinks]{hyperref}                    % creates the links
+\usepackage{parskip}
+\setlength{\parskip}{1.5pt}                         % Just changes spacing AFTER paragraph
+\usepackage{setspace}                               % line spacing
+%\numberwithin{equation}{section}
+\usepackage{amsmath}
+\usepackage{amsfonts} 
+\usepackage{amsthm}
+%equation count plus subsection
+\renewcommand{\baselinestretch}{1.5}                %set spacing
+\numberwithin{equation}{section}                    %number eq with section number
+%\XeTeXlinebreaklocale "KHM"
+%\XeTeXlinebreakskip=0pt
+%===========================================================================================
+
+
+%FIGURE SETUP===============================================================================
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{tocloft}
+\renewcommand\cftfigpresnum{\bfseries\figurename~}
+\setlength\cftfignumwidth{7em}
+\renewcommand\cfttabpresnum{\bfseries\tablename~}
+\setlength\cfttabnumwidth{7em}
+\usetikzlibrary{shapes.geometric, arrows}
+\usepackage[labelfont=bf]{caption}         % Caption Figure capital letter
+\captionsetup{labelfont=bf}
+%===========================================================================================
+
+
+%Appendix===================================================================================
+\usepackage[titletoc,title]{appendix}
+%===========================================================================================
+
+
+%Equation SETUP=============================================================================
+\renewcommand{\theequation}{\textbf{Eq.\hspace{1mm}\thesection.\arabic{equation}.}}
+%===========================================================================================
+
+
+%TABLE SETUP================================================================================
+%remove : after table number
+\usepackage{caption}
+\captionsetup[table]{labelsep=space}
+\renewcommand{\thetable}{{\thesection.\arabic{table}.}}
+\captionsetup[figure]{labelsep=space}
+\renewcommand{\thefigure}{\thesection.\arabic{figure}.}
+%===========================================================================================
+
+
+
+%THIS IS THE PLACE FOR TABLE OF CONTENTS SETUP==============================================
+\usepackage{tikz}
+\usepackage{tocloft}
+\usepackage{secdot}
+\sectiondot{section}
+\sectiondot{subsection}
+\sectiondot{subsubsection}
+\renewcommand{\cftsecaftersnum}{.}         % add . after section number
+\renewcommand{\cftsubsecaftersnum}{.}      % add . after sub section number
+\renewcommand{\cftsubsubsecaftersnum}{.}   % add . after sub sub section number
+\setlength{\cftbeforesecskip}{1pt}         % reduce spacing between section in ToC
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % add dots fill after section in ToC
+\renewcommand{\cftdotsep}{1}               % reduce the space between the dots in ToC
+%===========================================================================================
+
+
+% THIS IS THE PLACE FOR CHANING FONT SIZE OF SECTION =======================================
+\usepackage{titlesec}
+\titleformat*{\section}{\fontsize{12pt}{10pt}\selectfont\bfseries}
+\titleformat*{\subsection}{\fontsize{12pt}{10pt}\selectfont\bfseries}
+\titleformat*{\subsubsection}{\fontsize{12pt}{10pt}\selectfont\bfseries}
+\titleformat*{\paragraph}{\fontsize{12pt}{12pt}\selectfont\bfseries}
+\titleformat*{\subparagraph}{\fontsize{12pt}{12pt}\selectfont\bfseries}
+%===========================================================================================
+
+
+% THIS IS THE PLACE FOR INCLUDING ABBREVIATIONS AND SYMBOLS=================================
+\usepackage{nomencl}
+\makenomenclature
+%===========================================================================================
+
+
+% THIS IS THE XML CODE INCLUDE==============================================================
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstset{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+    numbers=left,
+    breaklines=true,
+    tabsize=2,
+    basicstyle=\ttfamily\footnotesize,
+    literate={\ \ }{{\ }}1
+}
+
+\usepackage[ruled,vlined]{algorithm2e}         %use for pseudo code
+%==========================================================================================
+
+
+% THE PDF GENERATION HAS BEGAN =============================================================
+\begin{document}
+
+	%Front cover
+	\includepdf[pages=-]{cover/cover_eng}
+	\includepdf[pages=-]{cover/cover_kh}
+
+
+    \pagenumbering{roman}                          %PUT SEVERAL FIRST PAGE IN ROMAN FORM
+	\include{Main-pages/1ACKNOWLEDGEMENT}
+	\include{Main-pages/2SEKDEISONGKAB}
+	%\include{Main-pages/3RESUME}
+	\include{Main-pages/4ABSTRACT}
+	\include{Main-pages/5ABBREVIATION_AND_SYMBOL}
+	\include{Main-pages/6TABLE_OF_CONTENTS}
+	\include{Main-pages/7LIST_OF_FIGURES}
+	\include{Main-pages/8LIST_OF_TABLES}
+
+	\pagenumbering{arabic}                         %PUT ALL END PAGE IN ARABIC NUMBER FORM
+	\include{chapters/1INTRODUCTION}
+	\include{chapters/2LITERATURE_REVIEWS}
+	\include{chapters/3RESEARCH_METHODOLOGY}
+	\include{chapters/4DD_MR_MODELLING}
+	\include{chapters/5CONTROL_MR}
+	\include{chapters/6PATH_PLANNING}
+	\include{chapters/7RESULT_AND_DISCUSSION}
+	\include{chapters/8CONCLUSION_AND_RECOMMENDATION}
+	
+	
+	\include{Main-pages/REFERENCE}
+	\include{Main-pages/appendix1}
+	\include{Main-pages/appendix2}
+	\include{Main-pages/appendix3}
+	\include{Main-pages/appendix4}
+	
+	%Back cover
+	\includepdf[pages={1}]{cover/coverback}
+\end{document}

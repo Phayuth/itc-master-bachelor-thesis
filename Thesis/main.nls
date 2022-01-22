@@ -1,0 +1,34 @@
+
+\begin{thenomenclature} 
+\nomgroup{A}
+  \item [{$\textbf{\(\omega\)}$}]\begingroup Robot's Angular velocity in Z-axis of Local Frame\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(\omega_c\)}$}]\begingroup Trajectory's Angular Velocity Control\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(\omega_l\)}$}]\begingroup Robot left wheel's angular velocity\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(\omega_r\)}$}]\begingroup Robot right wheel's angular velocity\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(\omega_{ref}\)}$}]\begingroup Trajectory's Angular Velocity Reference\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(\theta\)}$}]\begingroup Heading Angle\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(e_1\)}$}]\begingroup Error in X-axis\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(e_2\)}$}]\begingroup Error in Y-axis\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(e_3\)}$}]\begingroup Error in \(\theta\) Heading Angle\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(L\)}$}]\begingroup Robot base length\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(p_x\)}$}]\begingroup Position in X-axis\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(p_y\)}$}]\begingroup Position in Y-axis\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(r\)}$}]\begingroup Robot wheel radius\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(T_e\)}$}]\begingroup Transformation Matrix about Z-axis\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(V\)}$}]\begingroup Robot's Linear velocity in X-axis of Local Frame\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(V_c\)}$}]\begingroup Trajectory's Linear Velocity Control\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(V_l\)}$}]\begingroup Robot left wheel's linear velocity\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(V_r\)}$}]\begingroup Robot right wheel's linear velocity\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(V_{ref}\)}$}]\begingroup Trajectory's Linear Velocity Reference\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(x\)}$}]\begingroup Robot's pose\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(x_g\)}$}]\begingroup X-axis in Global Frame\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(x_l\)}$}]\begingroup X-axis in Local Frame\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(y_g\)}$}]\begingroup Y-axis in Global Frame\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{\(y_l\)}$}]\begingroup Y-axis in Local Frame\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{EKF}$}]\begingroup Extended Kalman Filter\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{ICR}$}]\begingroup Instantaneous Center of Rotation\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{IMU}$}]\begingroup Inertial Measurement Unit\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{ROS}$}]\begingroup Robot Operating System\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+  \item [{$\textbf{SLAM}$}]\begingroup Simultaneous Localization and Mapping\nomeqref {\textbf  {Eq.\hspace  {1mm}0.0.}}\nompageref{iv}
+
+\end{thenomenclature}

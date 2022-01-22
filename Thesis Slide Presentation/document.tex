@@ -1,0 +1,65 @@
+\documentclass[12pt,aspectratio=169]{beamer}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usetheme{Madrid}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xcolor}
+
+
+\begin{document}
+	\setbeamertemplate{navigation symbols}{} %remove nav bar under page for beamer
+	%\beamertemplatenavigationsymbolsempty   %remove nav bar under page for beamer
+	\setbeamertemplate{footline}[page number]
+	\setbeamertemplate{caption}[numbered]    %add number to figure
+	
+	\title{Path Planning of Wheeled Mobile Robot with Occupancy Grid Map}
+	
+	\author{Supervisor: Dr.SRANG Sarot\\ Co-Supervisor: Mr.SAKAL Morokot\\ \makebox[1.26cm]\hfill Presenter: Mr.YONRITH Phayuth}
+	
+	\date{}
+	
+	\setbeamercovered{transparent}
+	
+	
+	
+% cover ===================================================================================
+\begin{frame}[plain]
+\begin{minipage}[b]{0.45\linewidth}
+\raggedright \includegraphics[scale=0.2]{zlablg.png}
+\end{minipage}
+\quad
+\begin{minipage}[b]{0.45\linewidth}
+\raggedleft \includegraphics[scale=0.3]{zitclg.png}
+\end{minipage}
+\maketitle
+\vspace{-10ex}
+\centering Academic Year: 2020-2021
+\end{frame}
+% cover ===================================================================================
+
+	
+% ToC ===================================================================================
+\begin{frame}
+	\frametitle{Table of Contents}
+	\tableofcontents
+\end{frame}
+% ToC ===================================================================================
+
+\include{section/1INTRO}
+\include{section/2REMETH}
+\include{section/3RESULT}
+\include{section/4CON}
+
+
+% Thank =====================================================================================
+\begin{frame}
+	\frametitle{}
+	\centering \Large
+	\emph{THANK YOU}
+\end{frame}
+
+\end{document}

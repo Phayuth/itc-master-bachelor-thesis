@@ -1,0 +1,9 @@
+\begin{center}
+		\renewcommand{\contentsname}{\centering \normalsize TABLE OF CONTENTS}
+		% overlay khmer word in pdf to the page
+		\begin{tikzpicture}[remember picture,overlay]
+			\node[xshift=23mm,yshift=-56.5mm,anchor=north west] at (current page.north west){%
+				\includegraphics[scale=1]{cover/cover-sakdi.pdf}};
+		\end{tikzpicture}
+		\tableofcontents
+\end{center}

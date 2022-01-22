@@ -1,0 +1,121 @@
+\section{INTRODUCTION}
+\subsection{Background}
+\hspace{1.27cm}
+Wheeled Mobile Robotic is a subject that have been around for many years. Study on Wheeled Mobile Robot have produced many interesting result that allow many breakthrough in robotic field. One the those study subject on wheeled mobile robot is the Autonomous Robot Navigation. In order to achieve an autonomous navigation functionality, the robot needs a great quantity of information of the surrounding the environment, thus different kind of sensors have been used and numerous algorithms have been deploy on the robot. One the the problem that attract the attention of the robotic community as well as researcher and developer is the Robotic Path Planning.\par
+\hspace{1.27cm}
+For human, if demanded, moving from point A to point B is an easy task. But for the robot, navigation is a challenging task that many researcher and developer have invest time and money on. A robot uses sensors to perceive the environment (up to some degree of uncertainty) and to build or update its environment map. In order to determine appropriate motion actions that lead to the desired goal location, it can use different decision and planning algorithms. In the process of path planning, the robot’s kinematic and dynamic constraints are considered.(\cite{KLANCAR2017161})
+\subsection{Statement of Problem}
+\hspace{1.27cm}
+In the past, the development of UAV systems and platforms was primarily motivated by military goals and applications. Unmanned inspection, surveillance, reconnaissance, and mapping of inimical areas were the primary military aims.  The importance of this research is to convert the drone data taken from the drone sensors into actionable business insights. Respond to these problems, the long-term goal of the research is to develop the (UAV) to be a full function of the applications such as Surveying and Mapping on the construction sites, monitoring the forest (forestry).
+
+\subsection{Objective}
+\hspace{1.27cm}
+The objective of this project are to provide the design method of a Fixed Wing UAV horizontal landing, and to design the flight controller of the fixed-wing UAV which consists of manual and autopilot controller.
+
+\subsection{Scope}
+\hspace{1.27cm}
+In this research, Matlab Aircraft Intuitive Design (AID) being used for predicting fixed-wing aircraft stability and control to get the design model and aerodynamics coefficients. Next, Solidworks has been use for design structure of fixed wing UAV that has the total weight around 12, flying at Mach number M equal 0.075.\par 
+\hspace{1.27cm}
+To reach the objective of designing the flight controller, mathematical modeling is very important. The mathematical modeling of the aircraft will be shown, and the linearization of the airframe dynamics also includes. Then, we focus on the state-space model which linearizes at trim condition. For flight controller designing, it consist of manual and autopilot. In the manual control design, we focus on converting the joystick input signal into the input parameters for the aircraft dynamics. Lateral and longitudinal control for autopilot is established.
+
+
+% Table ====================================================================================
+\begin{table}[h]
+    \begin{center}
+		\caption{Coefficients of lateral state-space model.}
+		\label{Table: Coefficients of lateral state-space model}
+		\begin{tabular}{ c | c c }
+		&\multicolumn{2}{c}{\textbf{Kalman}}  \\
+		\textbf{Sensors} & \textbf{Mean} & \textbf{Covariance}\\\hline 
+		\textbf{IMU} & 0 & 0.1\\
+		\textbf{Encoder} & 0 & 0.001 
+ \\
+	\ChangeRT{1.5pt}
+       \end{tabular}
+  \end{center}
+\end{table}
+% Table ====================================================================================
+
+
+
+% Table ====================================================================================
+\begin{table}[ht]
+	\begin{center}
+		\caption{State variable for UAV equation of motion}
+		\label{Table: state variable}
+		\begin{tabular}{lll}
+
+		\multicolumn{1}{c}{\textbf{Name}} &  & \multicolumn{1}{c}{\textbf{Description}}                                                                                        
+		\\\hline
+		\(p_n\) &  & Initial north position of the UAV along \(\textbf{i}^i\) in \(F^i\)                             
+		\\
+		\(p_e\) &  & Initial east position of the UAV along \(\textbf{j}^i\) in \(F^i\)           
+		\\
+	    \(p_d\) &  & Initial down position (negative altitude) of the UAV along \(\textbf{k}^i\) in \(F^i\)                   
+	    \\
+		\(u\)   &  & Body frame velocity along \(\textbf{i}^b\) in \(F^b\) \\
+	    \(v\)   &  & Body frame velocity along \(\textbf{j}^b\) in \(F^b\)
+	    \\
+	    \(w\)   &  & Body frame velocity along \(\textbf{k}^b\) in \(F^b\)
+	    \\
+	    \(\phi\)   &  & Roll angle defined with respect to \(F^{v2}\)
+	    \\
+	    \(\theta\)   &  & Pitch angle defined with respect to \(F^{v1}\)
+	    \\
+	    \(\psi\)   &  & Yaw angle defined with respect to \(F^v\)
+	    \\
+	    \(p\)   &  & Roll rate along \(\textbf{i}^b\) in \(F^b\)
+	    \\
+	    \(q\)   &  & Pitch rate along \(\textbf{j}^b\) in \(F^b\)
+	    \\
+	    \(p\)   &  & Yaw rate along \(\textbf{k}^b\) in \(F^b\)
+	    \\
+	\ChangeRT{1.5pt}
+        \end{tabular}
+    \end{center}
+\end{table}
+% Table ====================================================================================
+
+
+% Figure Image =============================================================================
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/1.png} 
+	\caption{Control surface convention aircraft.}
+	\label{fig:Control surface convention aircraft}
+\end{figure}
+% Figure Image =============================================================================
+
+% Equation==================================================================================
+\begin{equation}
+  \textbf{p}^{v1}=R^{v1}_v(\psi)\textbf{p}^{v},\\
+\end{equation}
+  where
+\begin{equation}
+  R^{v1}_v(\psi)= \begin{pmatrix}
+  \cos{\psi}  & \sin{\psi}   & 0  \\
+  -\sin{\psi} & \cos{\psi}   & 0  \\ 
+       0      &      0       & 1
+    \end{pmatrix}.\\
+\end{equation}
+% Equation==================================================================================
+
+
+% List down=================================================================================
+\begin{itemize}
+\setlength{\itemindent}{6cm}
+    \item \(V_{ac}= 20 \si{.m/s}\),
+    \item \(\gamma= 0 \si{.rd}\),
+    \item \(R = \infty \si{.m}\),
+\end{itemize}\par
+% List down=================================================================================
+
+
+
+% List down=================================================================================
+\begin{itemize}
+    \item \(C_{m_\alpha}\) is related to as the longitudinal static stability derivative. \(C_{m_\alpha}\)must be less than zero for the UAV to be statically stable. In this case, an increase in \(\alpha\) due to an updraft would cause the MAV to nose down in order to maintain the nominal angle of attack.
+    \item \(C_{l_\beta}\) is mentioned as the roll static stability derivative and associated with dihedral in the wings. \(C_{l_\beta}\) must be negative for static stability in roll. A negative value for \(C_{l_\beta}\) will result in rolling moments that roll the MAV away from the direction of sideslip, thereby driving the sideslip angle \(\beta\) to zero.
+    \item \(C_{n_\beta}\) is referred to as the yaw static stability derivative and is sometimes called the weathercock stability derivative. If an aircraft is statically stable in yaw, it will naturally point into the wind like a weathervane (or weathercock). The larger the tail and the further the tail is aft of the center of mass of the aircraft, the larger \(C_{n_\beta}\) will be. \(C_{n_\beta}\) must be positive for the UAV to be stable in yaw. This simply implies that for a positive sideslip angle, a positive yawing moment will be induced. This yawing moment will yaw the UAV into the direction of the relative airspeed, driving the sideslip angle \(\beta\) to zero.
+\end{itemize}\par
+% List down=================================================================================

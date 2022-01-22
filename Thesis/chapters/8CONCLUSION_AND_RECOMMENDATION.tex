@@ -1,0 +1,33 @@
+\section{CONCLUSION AND RECOMMENDATION}
+\subsection{Conclusion}
+\hspace{1.27cm}
+In conclusion, the experiment is conducted in Gazebo simulation with the robot 3D model and sensors (wheel encoders, IMU, and Lidar). The kinematic and dynamics model of differential drive mobile robot is derived. We use algorithms:\par
+\begin{itemize}
+	\item \textbf{Extended Kalman Filter} for sensor fusion localization
+	\item \textbf{Hector SLAM} to create the occupancy grid map
+	\item \textbf{A* Path Planning} to determine the optimal pathway for the robot from starting point to goal point coming from user desired input
+	\item \textbf{Backstepping} controller to control the robot motion
+\end{itemize}
+
+\hspace{1.27cm}
+In static map, the A* path planning algorithm achieve a great result in generate pathway in low computational time because the cost function has the heuristic value $H$. The pathway is optimal as long as its value is not overestimated. The backsteppig controller results controlled output close to the generated pathway while the EKF give an accurate pose estimation.\par
+
+\hspace{1.27cm}
+The usage of ROS package from this project can be extended. In the robot control section, the controller can be further developed or switched between another controller. With the three sensors that is used in this project, we can add or switch with other sensors that provide a suitable data that the algorithm required. This project has produced a ROS package and framework for the differential drive mobile robot for other to test, simulate, and visualize the robot in the simulated environment. For further implementation in the real world scenario, this ROS package implement ROS topics that are ready for real devices to publish its data on. \par
+
+
+%To determine the robot pose in the surrounding, the extended kalman filter algorithm for sensor fusion is used. In the simulation, we simulated three sensors: wheel encoders, IMU, and Lidar. To obtain the occupancy grid map, the hector SLAM algorithm is used. After obtain the map, we use A-star path planning algorithm to generate the optimal path from starting point to goal point coming from user desired input. The robot motion is controlled using the backstepping controller. Although the project is in simulation, it has built a groundwork for the real world implementation in the future.\par
+
+%Conclude performance 
+%	feedback control
+%	SLAM
+%Conclude framework ability in real system
+%
+%for static map all the algorithm is suitable
+%ROS framework can be used for further testing
+%convenience for different controller
+
+
+\subsection{Recommendation}
+\hspace{1.27cm}
+In the future work, the project will be implemented in hardware. With hardware implementation, the algorithm required more accuracy and performance to cope with the hardware capability such as computational speed, data publishing rate, sensor noise and interference, unexpected failure, disturbance properties that have not been considered in the modeling. \par
