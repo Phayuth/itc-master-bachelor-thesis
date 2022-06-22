@@ -1,11 +1,11 @@
 # Master Thesis
-Nomencluture command
+## Nomencluture command
 ![](/src/nomen_cmd.png)
 ```
 makeindex -s nomencl.ist -t %.nlg -o %.nls %.nlo
 ```
 
-THESIS
+## THESIS
 ![](/src/clr_aux_file.png)
 
 1. Delete all temp file such as .aux .ngl ...
@@ -14,7 +14,7 @@ THESIS
 4. Compile biber
 5. Compile Xelatex again
 
-SLIDE
+## SLIDE
 Complie pdflatex normally
 
 # Bachelor Thesis
